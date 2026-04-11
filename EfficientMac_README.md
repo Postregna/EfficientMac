@@ -9,6 +9,11 @@ Hold Right Shift + Right Ctrl for 3 seconds to lock your screen. Quits all open 
 
 Runs automatically at login.
 
+### AppMover
+Watches for a target app to open and automatically moves it to your second monitor. Defaults to VS Code on the left monitor but works with any app.
+
+Runs automatically at login.
+
 ## Requirements
 
 ```bash
