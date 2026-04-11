@@ -32,6 +32,18 @@ Runs automatically at login.
 
 ---
 
+### WindowFill
+Press Right Alt + Space to expand the active window to fill its monitor without entering full screen. Press again to snap it back to its original size and position.
+
+Runs automatically at login.
+
+**Setup**
+1. Install the dependency: `pip3 install pynput`
+2. Grant Accessibility and Input Monitoring permissions to Python in System Settings → Privacy & Security
+3. Load the launch agent: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.efficientmac.windowfill.plist`
+
+---
+
 ## Requirements
 
 ```bash
