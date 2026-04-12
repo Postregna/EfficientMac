@@ -44,6 +44,17 @@ Runs automatically at login.
 
 ---
 
+### ScreenshotOrganizer
+Watches your Desktop for new screenshots and automatically moves them into a dated folder inside a Screenshots directory. Unnamed screenshots are deleted after 24 hours. Renamed screenshots are kept indefinitely.
+
+Runs automatically at login.
+
+**Setup**
+1. Create a `Screenshots` folder on your Desktop
+2. Load the launch agent: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.efficientmac.screenshotorganizer.plist`
+
+---
+
 ## Requirements
 
 ```bash
