@@ -58,16 +58,16 @@ Runs automatically at login.
 ### StyleRewriter
 Copy any message, hit Right Ctrl + R, and it rewrites it to sound professional and human using a local LLM. The rewritten text goes straight back to your clipboard ready to paste. Runs fully offline — nothing leaves your machine.
 
+Press Right Ctrl + S to cycle between styles: default, terse, and formal.
+
 Runs automatically at login.
 
 **Setup**
-1. Install [Ollama](https://ollama.com) and pull the model: `ollama pull mistral`
+1. Install [Ollama](https://ollama.com) and pull the model: `ollama pull llama3`
 2. Install the dependency: `pip3 install pynput`
 3. Grant Accessibility and Input Monitoring permissions to Python in System Settings → Privacy & Security
-4. Copy `config.example.txt` to `config.txt` and edit it to match your writing style — this file is gitignored and stays private
+4. Copy `config.example.json` to `config.json` and edit it to match your writing style — this file is gitignored and stays private
 5. Load the launch agent: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.efficientmac.stylerewriter.plist`
-
-Your personal style config is kept in `config.txt` which is gitignored. Use `config.example.txt` as a starting point.
 
 ---
 
@@ -75,7 +75,7 @@ Your personal style config is kept in `config.txt` which is gitignored. Use `con
 
 ```bash
 pip3 install pynput
-ollama pull mistral
+ollama pull llama3
 ```
 
 macOS only.
