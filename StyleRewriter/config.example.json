@@ -1,0 +1,8 @@
+{
+  "active_style": "default",
+  "styles": {
+    "default": "Never add anything that was not in the original message. Never add greetings, sign-offs, openers, closings, or emoticons. Never use exclamation points, semicolons, or colons. Never start with I. Use contractions always. Short sentences. No passive voice. Sound like a real person texting, not a corporate email. No filler phrases: Hope alls well, Hope this finds you well, on your end, I wanted to reach out, Looking forward to, See you there. No corporate words: proceed, regarding, following, as per, facilitate, coordinate, transition, necessitate, anticipate, endeavor, leverage, utilize, oversight, apologies for, please be advised, as mentioned. Be direct. Vary sentence structure.",
+    "terse": "Same rules as default but cut every sentence in half. One idea per sentence. If it can be implied, drop it.",
+    "formal": "Rewrite for a senior stakeholder or legal context. No contractions. No slang. Still no corporate filler or banned words. Clear, precise, and short."
+  }
+}
