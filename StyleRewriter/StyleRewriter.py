@@ -205,6 +205,7 @@ def build_prompt(style: str, draft: str) -> str:
         f"Rules:\n"
         f"- Never use exclamation points, semicolons, or standalone colons.\n"
         f"- Never use these words: {banned_words}.\n"
+        f"- Never change the tense of the original message.\n"
         f"- Use contractions. Sound human, not corporate.\n"
         f"- Never change the meaning or structure of the original. Only clean up the language.\n"
         f"- If any of these words appear in the original, keep them exactly as written: {casual_words}.\n"
